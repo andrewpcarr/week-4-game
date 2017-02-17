@@ -1,0 +1,34 @@
+.jumbotron {
+  background-image: url('../images/collector.jpg');
+  background-size: cover;
+  color: white;
+}
+
+.info {
+	background-color: #fbe6cc;
+	color: green;
+	padding-top: 10px;
+}
+
+#mainHolder {
+	background-image: url('../images/background.png') repeat center center #ffffff;
+}
+
+#random {
+	background-color: #5bc880;
+	padding-top: 10px; 
+	padding-bottom: 10px;
+}
+
+#total {
+	background-color: #299f93;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#score {
+	background-color: #4afdfe;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
