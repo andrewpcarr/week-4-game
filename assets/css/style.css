@@ -1,3 +1,7 @@
+body {
+	background: url('../images/background.png') repeat center center #ffffff;
+}
+
 .jumbotron {
   background-image: url('../images/collector.jpg');
   background-size: cover;
@@ -8,10 +12,6 @@
 	background-color: #fbe6cc;
 	color: green;
 	padding-top: 10px;
-}
-
-#mainHolder {
-	background-image: url('../images/background.png') repeat center center #ffffff;
 }
 
 #random {
