@@ -23,6 +23,10 @@ body {
 	margin-top: 20px;
 }
 
+#matchNumber {
+	font-size: 48px;
+}
+
 #random {
 	background-color: #5bc880;
 	padding-top: 10px; 
