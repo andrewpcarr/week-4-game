@@ -5,6 +5,8 @@
 
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
   	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
   	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
@@ -20,7 +22,9 @@
 	</div>
 </header>
 
-<div class="container" id="mainHolder">
+<div class="container">
+
+	<!-- Game instructions -->
 	<div class="row text-center info">
 		<div>
 			<p>You will be given a random number at the start of the game.</p>
@@ -30,14 +34,16 @@
 			<p>Each time the game starts, the value of the crystals will change!</p>
 		</div>
 	</div>
-	<div class="row" id="calculations">
+
+	<!-- This is where the player sees the scores -->
+	<div class="row calculations" id="calculations">
 		<div class="col-md-4 text-center" id="random">
-			Crystals to Collect:
+			<h2>Crystals to Collect:</h2>
 			<br><br>
 			<div id="matchNumber"></div>
 		</div>
 		<div class="col-md-4 text-center" id="total">
-			Total Collected:
+			<h2>Total Collected:</h2>
 			<br><br>
 			<div id="userTotal"></div>
 		</div>
@@ -45,6 +51,14 @@
 			<div id="totalWins"></div>
 			<div id="totalLosses"></div>
 		</div>
+	</div>
+
+	<!-- The CRYSTALS!!! -->
+	<div class="row text-center crystals">
+		<div class="col-md-3"><img src="assets/images/pic1.jpg"></div>
+		<div class="col-md-3"><img src="assets/images/pic2.jpg"></div>
+		<div class="col-md-3"><img src="assets/images/pic3.jpg"></div>
+		<div class="col-md-3"><img src="assets/images/pic4.jpg"></div>
 	</div>
 </div>
 
