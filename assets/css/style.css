@@ -23,7 +23,7 @@ body {
 	margin-top: 20px;
 }
 
-#matchNumber {
+#matchNumber, #userTotal {
 	font-size: 48px;
 }
 
