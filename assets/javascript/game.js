@@ -32,7 +32,6 @@ function value() {
 	$('.crystal2').val(Math.floor(Math.random() * (10 - 3 + 1) + 3))
 	$('.crystal3').val(Math.floor(Math.random() * (7 - 1 + 1) + 1))
 	$('.crystal4').val(Math.floor(Math.random() * (10 - 3 + 1) + 3))
-
 }
 
 value();
